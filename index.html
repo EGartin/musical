@@ -5,14 +5,19 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <!--Theme CSS-->
+        <link rel="stylesheet" href="http://getbootstrap.com/docs/4.0/examples/album/album.css" />
+
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -20,24 +25,122 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello Please see the links below for your reference.</p>
-        <ul>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdyYdSqugYhJIbOrNJxwuS8I0">20170828</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdybGQRWHr-SXw3Sj-ow_zxMt">20170917</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdyb4lDPuvXZbhNnBOqe2hQ-A">20170924</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdyZu3_NEYOS-wOXYLxMroCAj">20170924 Couples</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdyaviuedE2SP2TsLUG8c87cs">20171001</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdyYPgu_BgBAZAWcLveQw7Gzd">20171001Couples</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdybAWo-FblkpIahV_KHMbdmh">20171008</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLINrCM0VBdyZkgIVDki5GbzA5ncHbn7_e">20171008Couples</a></li>
-        </ul>
+        <header>
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 py-4">
+                            <h4 class="text-white">Whale of a Tale</h4>
+                            <p class="text-muted">Videos from rehearsal.</p>
+                        </div>
+                        <div class="col-sm-4 py-4">
+                            <h4 class="text-white">Contact</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="https://twitter.com/elijahgartin" class="text-white">Follow on Twitter</a></li>
+                                <li><a href="https://www.youtube.com/user/EGartin" class="text-white">Follow on YouTube</a></li>
+                                <li><a href="mailto:elijah.gartin@gmail.com" class="text-white">Email me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-dark bg-dark">
+                <div class="container d-flex justify-content-between">
+                    <a href="#" class="navbar-brand">Whale of a Tale</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+         <main role="main">
 
+            <section id="top" class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Whale of a Tale</h1>
+                    <p class="lead text-muted">All the videos, unfiltered for your viewing pleasure.  Sorry I don't have time to cut them all up this year.</p>
+                    <!--<p>
+                        <a href="#" class="btn btn-primary">Blue</a>
+                        <a href="#" class="btn btn-secondary">Gray</a>
+                    </p>
+                    -->
+                </div>
+            </section>
+
+            <div class="album text-muted">
+                <div class="container">
+                    <div class="row">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdyYdSqugYhJIbOrNJxwuS8I0" frameborder="0" allowfullscreen></iframe>
+                                <p class="card-text">August 28th, 2017</p>
+</div>
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdybGQRWHr-SXw3Sj-ow_zxMt" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">September 17th, 2017</p>
+                        </div>
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdyb4lDPuvXZbhNnBOqe2hQ-A" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">September 24th, 2017</p>
+                        </div>
+
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdyZu3_NEYOS-wOXYLxMroCAj" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">September 24th, 2017 Couples</p>
+                        </div>
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdyaviuedE2SP2TsLUG8c87cs" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">October 1st, 2017</p>
+                        </div>
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdyYPgu_BgBAZAWcLveQw7Gzd" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">October 1st, 2017 Couples</p>
+                        </div>
+
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdybAWo-FblkpIahV_KHMbdmh" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">October 8th, 2017</p>
+                        </div>
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdyZkgIVDki5GbzA5ncHbn7_e" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">October 8th, 2017 Couples</p>
+                        </div>
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/videoseries?list=PLINrCM0VBdybm7rxiBvkM_MfnOnXxQA6t" frameborder="0" allowfullscreen></iframe>
+                            <p class="card-text">October 15th, 2017</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="text-muted">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#top">Back to top</a>
+                </p>
+                <p>Powered by  <a href="http://www.thunder-rock.com">Thunder Rock</a></p>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
+        <script src="http://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+        <script>
+                Holder.addTheme('thumb', {
+                    bg: '#55595c',
+                    fg: '#eceeef',
+                    text: 'Thumbnail'
+                });
+        </script>
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
