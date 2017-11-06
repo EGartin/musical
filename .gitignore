@@ -306,3 +306,7 @@ __pycache__/
 
 # OpenCover UI analysis results
 OpenCover/
+
+# Split Track Addition Files
+*.mp3
+*.zip
